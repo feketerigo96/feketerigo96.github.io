@@ -30,7 +30,7 @@ header-img: "img/semantic.jpg"
 {% endfor %}
 </ul>
 
-<script src="/js/jquery.tagcloud.js" type="text/javascript" charset="utf-8"></script> 
+<script src="/js/jquery.tagcloud.0-0-1.js" type="text/javascript" charset="utf-8"></script> 
 <script language="javascript">
 $.fn.tagcloud.defaults = {
     size: {start: 1, end: 1, unit: 'em'},
