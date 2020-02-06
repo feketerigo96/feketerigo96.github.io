@@ -9,6 +9,8 @@ description: 文章金句。
 
 Hello World!
 
+Test code Display:
+
 <pre>
 #include &lt;stdio.h&gt;
 int main(){
