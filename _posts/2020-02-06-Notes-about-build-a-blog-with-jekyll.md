@@ -7,7 +7,7 @@ tags: [Github Page,jekyll,Markdown]
 
 ---
 
-To build a static personal blog by Github Page is very easy. You can check official tutorial or this Chinese [tutorial](https://www.zhihu.com/question/20463581/answer/25478916)<br/>
+To build a static personal blog by Github Page is very easy. You can check official tutorial or this [Chinese tutorial](https://www.zhihu.com/question/20463581/answer/25478916)<br/>
 Moreover, the favicon may not show as it supposed to be. You should add *?* after the favicon souece file name. For example,it is like<br/>
 ```<link rel="shortcut icon" type="image/png" href="{{ "/img/favicon.png?" | prepend: site.baseurl}}">```<br/><br/><br/>
 Building a personal blog also needs to learning some Markdown syntax.(and some html syntax).Here are some basic Markdown syntax:<br/>
