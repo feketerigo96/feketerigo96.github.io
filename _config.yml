@@ -22,8 +22,7 @@ github_username: feketerigo96
 # use Github Flavored Markdown !important  
 # document: http://jekyllrb.com/docs/configuration/#kramdown  
 markdown: kramdown
-kramdown:
-	math_engine:katex
+
 highlighter: rouge
 permalink: pretty
 paginate: 8
