@@ -36,7 +36,7 @@ header-img: "img/semantic.jpg"
 	  $("#tag_cloud a").tagcloud();
 	   
 	   
-	  $("#tagcloud a").tagcloud({
+	  $("#tag_cloud a").tagcloud({
       size: {
         start: 14, 
         end: 18, 
