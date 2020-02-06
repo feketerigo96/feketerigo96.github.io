@@ -11,9 +11,10 @@
 
     {% include nav.html %}
     
-    
-    <br/><br/><br/><br/>
-    <div class="dropdown navbar-form navbar-right " id="search-container">
+
+    {{ content }}
+
+    <div class="dropdown navbar-form" id="search-container" style="text-align: center;">
         <input  id="search-input" name="search-input" type="text"  aria-haspopup="true" aria-expanded="false" data-toggle="dropdown" class="form-control typeahead"   placeholder="Search">
        
         <ul class="dropdown-menu" aria-labelledby="dLabel" id="results-container">
@@ -33,8 +34,6 @@
          
        </ul>
      </div>
-
-    {{ content }}
 
     {% include footer.html %}
 
