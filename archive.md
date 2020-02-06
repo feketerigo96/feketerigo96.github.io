@@ -4,7 +4,7 @@ title: "Archive"
 description: "Archives of Notes"
 header-img: "img/orange.jpg"
 ---
-<link rel="shortcut icon" href="img/favicon.ico">
+
 
 <ul class="listing">
 {% for post in site.posts %}

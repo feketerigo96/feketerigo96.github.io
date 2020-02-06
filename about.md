@@ -4,14 +4,10 @@ title: "About Me"
 description: "Chen Jinyu " 
 header-img: "img/green.jpg"
 ---
-<link rel="shortcut icon" href="img/favicon.ico">
 
 Learning something about controll of a drone and image processing in Chiba University.
 
-千葉大学 大学院工学研究院 機械工学コース<br/> 　
-並木研究室<br/>
-陳　晋宇<br/>
-〒263-8522　千葉市稲毛区弥生町1-33<br/>
+千葉大学 大学院工学研究院 機械工学コース<br/>並木研究室<br/>陳　晋宇<br/>〒263-8522　千葉市稲毛区弥生町1-33<br/>
 
 
 
