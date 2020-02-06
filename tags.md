@@ -38,6 +38,6 @@ $.fn.tagcloud.defaults = {
 };
 
 $(function () {
-    $('#tag_cloud a').tagcloud();
+    $("#tag_cloud>a").tagcloud();
 });
 </script>
