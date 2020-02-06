@@ -10,32 +10,9 @@
 <body ontouchstart="">
 
     {% include nav.html %}
-    
 
     {{ content }}
 
-    
-    <script src="https://unpkg.com/simple-jekyll-search/dest/simple-jekyll-search.min.js"></script>
-        <script>
-            SimpleJekyllSearch({
-                searchInput: document.getElementById("search-input"),
-                resultsContainer: document.getElementById("results-container"),
-                json: '/search.json',
-                searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>', // 文章列表模板
-                noResultsText: 'No result', // 无搜索数据提示语
-                limit: 20, // 返回最大文章数
-                fuzzy: false // 是否模糊匹配
-            })
-        </script>
-    <div class="dropdown navbar-form" id="search-container" style="text-align: center;">
-        <input  id="search-input" name="search-input" type="text"  aria-haspopup="true" aria-expanded="false" data-toggle="dropdown" class="form-control typeahead"   placeholder="Search">
-       
-        
-        
-        <ul class="dropdown-menu" aria-labelledby="dLabel" id="results-container">
-         
-       </ul>
-     </div>
 
     {% include footer.html %}
 
