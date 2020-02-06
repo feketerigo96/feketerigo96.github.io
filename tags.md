@@ -33,7 +33,7 @@ header-img: "img/semantic.jpg"
 
 <script>
     $(document).ready(function(){
-	  $("#tag_cloud a").tagcloud();
+	  //$("#tag_cloud a").tagcloud();
 	   
 	   
 	  $("#tag_cloud a").tagcloud({
@@ -47,7 +47,7 @@ header-img: "img/semantic.jpg"
         end: "#f52"
       }
     })
-    return false;
+    //return false;
      
    })
    
