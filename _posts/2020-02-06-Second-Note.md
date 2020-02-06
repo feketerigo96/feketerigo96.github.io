@@ -11,14 +11,10 @@ Hello World!
 
 <img src="{{ "/img/post_img/PX4_logo.png" | | prepend: site.baseurl}}" alt="PX4 logo">
 
-
-
-
-
-
-
-
-
-
-
-
+```cpp
+#include <stdio.h>
+int main(){
+    printf("Hello World!");
+    return 0；
+}
+```
