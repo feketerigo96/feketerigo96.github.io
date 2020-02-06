@@ -10,7 +10,7 @@ description: 文章金句。
 Hello World!
 
 <pre>
-#include <stdio>
+#include &lt;stdio.h&gt;
 int main(){
     printf("Hello World!");
 }
