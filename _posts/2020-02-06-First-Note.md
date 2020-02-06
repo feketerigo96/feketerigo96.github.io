@@ -9,6 +9,13 @@ description: 文章金句。
 
 Hello World!
 
+<code>
+#include <stdio>
+int main(){
+    printf("Hello World!");
+}
+</code>
+
 
 
 
