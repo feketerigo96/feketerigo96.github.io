@@ -45,7 +45,7 @@ Building a personal blog also needs to learning some Markdown syntax.(and some h
     > 引用内容
 
     Markdown 分割线：
----
+    ---
 
     Markdown 换行：
     &lt;br&gt;
