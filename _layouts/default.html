@@ -11,6 +11,27 @@
 
     {% include nav.html %}
 
+    <div class="dropdown navbar-form navbar-right " id="search-container">
+        <input  id="search-input" name="search-input" type="text"  aria-haspopup="true" aria-expanded="false" data-toggle="dropdown" class="form-control typeahead"   placeholder="Search">
+       
+        <ul class="dropdown-menu" aria-labelledby="dLabel" id="results-container">
+
+        <script src="https://unpkg.com/simple-jekyll-search/dest/simple-jekyll-search.min.js"></script>
+        <script>
+            SimpleJekyllSearch({
+                searchInput: document.getElementById('search-input'),
+                resultsContainer: document.getElementById('results-container'),
+                json: '/search.json',
+                searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>', // 文章列表模板
+                noResultsText: '没有搜索到文章', // 无搜索数据提示语
+                limit: 20, // 返回最大文章数
+                fuzzy: false // 是否模糊匹配
+            })
+        </script>
+         
+       </ul>
+     </div>
+    
     {{ content }}
 
     {% include footer.html %}
