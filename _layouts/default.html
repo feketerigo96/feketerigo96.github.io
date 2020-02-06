@@ -17,7 +17,10 @@
     <div class="dropdown navbar-form" id="search-container" style="text-align: center;">
         <input  id="search-input" name="search-input" type="text"  aria-haspopup="true" aria-expanded="false" data-toggle="dropdown" class="form-control typeahead"   placeholder="Search">
        
-        <ul class="dropdown-menu" aria-labelledby="dLabel" id="results-container">
+        <span class="dropdown-menu" role="listbox">
+            <div>
+        
+        <ul aria-labelledby="dLabel" id="results-container">
 
         <script src="https://unpkg.com/simple-jekyll-search/dest/simple-jekyll-search.min.js"></script>
         <script>
@@ -33,6 +36,8 @@
         </script>
          
        </ul>
+            </div>
+       </span>
      </div>
 
     {% include footer.html %}
