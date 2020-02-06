@@ -30,14 +30,25 @@ header-img: "img/semantic.jpg"
 {% endfor %}
 </ul>
 
- 
-<script language="javascript">
-$.fn.tagcloud.defaults = {
-    size: {start: 14, end: 18, unit: 'pt'},
-      color: {start: '#cde', end: '#f52'}
-};
 
-$(function () {
-    $("#tag_cloud>a").tagcloud();
-});
+<script>
+    $(document).ready(function(){
+	  $("#tag_cloud a").tagcloud();
+	   
+	   
+	  $("#tagcloud a").tagcloud({
+      size: {
+        start: 14, 
+        end: 18, 
+        unit: "pt"
+      }, 
+      color: {
+        start: "#cde", 
+        end: "#f52"
+      }
+    })
+    return false;
+     
+   })
+   
 </script>
