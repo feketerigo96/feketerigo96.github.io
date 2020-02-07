@@ -14,6 +14,9 @@
     {{ content }}
 
 
+    <script src="https://unpkg.com/simple-jekyll-search/dest/simple-jekyll-search.min.js"></script>
+
+
     <script>
         SimpleJekyllSearch({
         searchInput: document.getElementById('search-input'),
@@ -27,7 +30,7 @@
     </script>
 
 
-    <div class="dropdown navbar-form navbar-right ">
+    <div class="dropdown navbar-form navbar-right " style="text-align: center">
         <input  id="search-input" name="word" type="text"  aria-haspopup="true" aria-expanded="false" data-toggle="dropdown" class="form-control typeahead"   placeholder="搜索">
        
         <ul class="dropdown-menu" aria-labelledby="dLabel" id="results-container">
