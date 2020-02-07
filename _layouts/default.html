@@ -14,6 +14,28 @@
     {{ content }}
 
 
+    <script>
+        SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        json: '/search.json',
+        searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+        noResultsText: 'No Result!',
+        limit: 20,
+        fuzzy: false
+        })
+    </script>
+
+
+    <div class="dropdown navbar-form navbar-right ">
+        <input  id="search-input" name="word" type="text"  aria-haspopup="true" aria-expanded="false" data-toggle="dropdown" class="form-control typeahead"   placeholder="搜索">
+       
+        <ul class="dropdown-menu" aria-labelledby="dLabel" id="results-container">
+         
+        </ul>
+     </div>
+
+
     {% include footer.html %}
 
 </body>
