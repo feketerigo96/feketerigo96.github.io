@@ -21,7 +21,7 @@
         SimpleJekyllSearch({
         searchInput: document.getElementById('search-input'),
         resultsContainer: document.getElementById('results-container'),
-        json: '/search.json',
+        json: 'https://feketerigo96.com/search.json',
         searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
         noResultsText: 'No Result!',
         limit: 20,
@@ -31,7 +31,7 @@
 
 
     <div class="dropdown navbar-form navbar-right " style="text-align: center">
-        <input  id="search-input" name="word" type="text"  aria-haspopup="true" aria-expanded="false" data-toggle="dropdown" class="form-control typeahead"   placeholder="搜索">
+        <input  id="search-input" name="word" type="text"  aria-haspopup="true" aria-expanded="false" data-toggle="dropdown" class="form-control typeahead"   placeholder="Search">
        
         <ul class="dropdown-menu" aria-labelledby="dLabel" id="results-container">
          
