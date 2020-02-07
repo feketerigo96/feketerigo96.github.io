@@ -14,14 +14,23 @@
     {{ content }}
 
 
-    <script src="https://unpkg.com/simple-jekyll-search/dest/simple-jekyll-search.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/simple-jekyll-search/1.7.2/simple-jekyll-search.min.js" integrity="sha256-DsgE6Y6cI5eAZoTg8tJ5VBxFs+rnL8smPwt/u8tyAYo=" crossorigin="anonymous"></script>
+
+
+    <div class="dropdown navbar-form" style="text-align: center">
+        <input  id="search-input" name="word" type="text"  aria-haspopup="true" aria-expanded="false" data-toggle="dropdown" class="form-control typeahead"   placeholder="Search">
+       
+        <ul class="dropdown-menu" aria-labelledby="dLabel" id="results-container">
+         
+        </ul>
+     </div>
 
 
     <script>
         SimpleJekyllSearch({
-        searchInput: document.getElementById('search-input'),
-        resultsContainer: document.getElementById('results-container'),
-        json: 'https://feketerigo96.com/search.json',
+        searchInput: document.getElementById("search-input"),
+        resultsContainer: document.getElementById("results-container"),
+        json: '{{ site.baseurl }}/search.json',
         searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
         noResultsText: 'No Result!',
         limit: 20,
@@ -29,14 +38,6 @@
         })
     </script>
 
-
-    <div class="dropdown navbar-form navbar-right " style="text-align: center">
-        <input  id="search-input" name="word" type="text"  aria-haspopup="true" aria-expanded="false" data-toggle="dropdown" class="form-control typeahead"   placeholder="Search">
-       
-        <ul class="dropdown-menu" aria-labelledby="dLabel" id="results-container">
-         
-        </ul>
-     </div>
 
 
     {% include footer.html %}
