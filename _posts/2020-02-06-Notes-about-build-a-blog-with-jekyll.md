@@ -4,7 +4,7 @@ title: Notes about build a blog with jekyll
 date: 2020-2-06
 categories: blog
 tags: [Github Page,jekyll,Markdown]
-descrpition: Notes about build a blog with jekyll
+descrpition: "Notes about build a blog with jekyll"
 ---
 
 To build a static personal blog by Github Page is very easy. You can check official tutorial or this [Chinese tutorial](https://www.zhihu.com/question/20463581/answer/25478916)<br/>
