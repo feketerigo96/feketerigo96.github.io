@@ -2,7 +2,7 @@
 layout: post
 title: Notes about build a blog with jekyll
 date: 2020-2-06
-categories: blog
+categories: learning
 tags: [Github Page,jekyll,Markdown]
 descrpition: "Notes about build a blog with jekyll"
 ---

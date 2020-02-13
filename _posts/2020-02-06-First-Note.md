@@ -2,9 +2,9 @@
 layout: post
 title: This is my first leaning note
 date: 2020-2-06
-categories: blog
+categories: test
 tags: [tag1,tag2]
-description: 文章金句。
+description: testtesttest
 ---
 
 Hello World!
