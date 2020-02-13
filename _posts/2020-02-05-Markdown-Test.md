@@ -7,13 +7,13 @@ tags: [test]
 descrpition: "Markdown modules test"
 
 ---
-# plain text display
+### plain text display
 Hello World!
 
-# image display
+### image display
 <img src="{{ "/img/post_img/PX4_logo.png" | | prepend: site.baseurl}}" alt="PX4 logo">
 
-# code display1
+### code display1
 ```
 #include <stdio.h>
 int main(){
@@ -22,7 +22,7 @@ int main(){
     return 0；
 }
 ```
-# code display2
+### code display2
 <pre>
 #include &lt;stdio.h&gt;
 int main(){
@@ -31,5 +31,5 @@ int main(){
 }
 </pre>
 
-# LaTeX Math formula display
+### LaTeX Math formula display
 $$ c = \sqrt{a^{2}+b_{0}^{2} +e^{x}} $$
